@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5e9da; /* beige */
+    margin: 0;
+    padding: 0;
+    color: #2d1a18; /* dark maroon/black */
+}
+.container {
+    max-width: 480px;
+    margin: 60px auto 30px auto;
+    background: #fff8f2; /* light beige */
+    padding: 36px 28px 28px 28px;
+    border-radius: 10px;
+    box-shadow: 0 6px 32px rgba(80,0,0,0.10);
+    border: 2px solid #80000022; /* subtle maroon border */
+}
+h2 {
+    text-align: center;
+    margin-bottom: 26px;
+    color: #800000; /* maroon */
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #4d2323; /* deep maroon */
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], textarea, select {
+    width: 100%;
+    padding: 9px 11px;
+    margin-bottom: 17px;
+    border: 1px solid #80000066; /* maroon border */
+    border-radius: 5px;
+    font-size: 15px;
+    background: #fbeee6; /* beige */
+    transition: border 0.2s;
+    color: #2d1a18;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus, select:focus {
+    border: 1.5px solid #800000;
+    outline: none;
+    background: #fff8f2;
+}
+.button, button {
+    display: inline-block;
+    width: 100%;
+    padding: 11px;
+    background: #800000; /* maroon */
+    color: #fff8f2; /* beige text */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 8px;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px #2d1a1820;
+}
+.button:hover, button:hover {
+    background: #4d2323; /* deep maroon/black */
+}
+.error {
+    color: #fff8f2;
+    background: #800000;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+.success {
+    color: #fff8f2;
+    background: #bfa980; /* warm beige-gold */
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 12px;
+    background: #fff8f2; /* light beige */
+    color: #2d1a18;
+}
+table th, table td {
+    border: 1px solid #80000033; /* maroon border */
+    padding: 8px 10px;
+    text-align: left;
+    font-size: 15px;
+}
+table th {
+    background: #bfa980; /* beige-gold */
+    color: #800000;
+    font-weight: 700;
+}
+table tr:nth-child(even) {
+    background: #f5e9da;
+}
+@media (max-width: 600px) {
+    .container {
+        max-width: 98vw;
+        padding: 16px 4vw;
+    }
+    table, table th, table td {
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+a {
+    color: #800000;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+a:hover {
+    text-decoration: underline;
+    color: #2d1a18;
+}
