@@ -62,12 +62,3 @@ Since registration is not public, you must manually insert a Super_User:
 - `styles.css` - Styling
 - `coursework_db.sql` - Database schema
 
----
-
-## GitHub
-- Commit regularly as you make changes.
-- Share your repository link before the deadline.
-
----
-
-If you need help with setup or want to implement email notifications, let me know!
